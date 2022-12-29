@@ -1,0 +1,96 @@
+*{
+	box-sizing: border-box;
+}
+h1{
+	text-align: center;
+}
+.sectionsformenu{
+border: 2px solid black;
+background-color: rgb(150, 150, 150) ;
+margin: 20px;
+}
+p{
+	padding: 15px 5px 0px 5px;
+	font-size: 15px;
+    text-align: justify;
+    position: relative;
+    margin: 13px;
+
+}
+#beef
+{
+	
+	float: right;
+	border-bottom: 2px solid black;
+	border-left: 2px solid black;
+	background-color: rgb(250, 150, 150);
+	margin-top: 0px;
+	margin-right: 0;
+	width: 120px;
+	font-size: 20px;
+	text-align: center;
+    position: relative;	
+    font-weight: bold;
+
+}
+#Chicken
+{
+	
+	float: right;
+	border-bottom: 2px solid black;
+	border-left: 2px solid black;
+	background-color: rgb(250, 140, 50);
+	margin-top: 0px;
+	margin-right: 0;
+	width: 120px;
+	font-size: 20px;
+	text-align: center;
+    position: relative;	
+    font-weight: bold;
+}
+#Chinese
+{
+	
+	float: right;
+	border-bottom: 2px solid black;
+	border-left: 2px solid black;
+	background-color: rgb(250, 128, 254);
+	margin-top: 0px;
+	margin-right: 0;
+	width: 120px;
+	font-size: 20px;
+	text-align: center;
+    position: relative;	
+    font-weight: bold;
+
+}
+.row{
+	width: 100%
+}
+/* for laptop */
+@media (min-width: 992px)
+{
+	.clg-lg-4 
+	{
+		float: left;
+		width: 33.33%;
+	}
+}
+/* for tablet */
+@media (min-width: 768px) and (max-width:991px)
+{
+	.clg-lg-6
+	{
+		float: left;
+		width: 50%;
+	}
+}
+/* for mobile */
+@media (max-width: 767px)
+{
+	.clg-md-12 
+	{
+		float: left;
+		width: 100%;
+	}
+}
