@@ -79,16 +79,20 @@ p{
 /* for tablet */
 @media (min-width: 768px) and (max-width:991px)
 {
-	.clg-lg-6
+	.clg-md-6
 	{
 		float: left;
 		width: 50%;
 	}
+	.clg-md-12
+	{
+		float: left;
+		width: 100%;
 }
 /* for mobile */
 @media (max-width: 767px)
 {
-	.clg-md-12 
+	.clg-s-12 
 	{
 		float: left;
 		width: 100%;
